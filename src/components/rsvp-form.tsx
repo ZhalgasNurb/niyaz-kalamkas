@@ -120,7 +120,7 @@ export default function RSVPForm() {
                 <>
                   <Send className="w-4 h-4 sm:w-5 sm:h-5" />
                   <span className="hidden sm:inline">Жіберу</span>
-                  <span className="sm:hidden">Подтвердить</span>
+                  <span className="sm:hidden">Жіберу</span>
                 </>
               )}
             </button>

@@ -1,6 +1,6 @@
 export default function BotanicalInvitation() {
   return (
-    <div className="my-6 flex items-center justify-center p-2 sm:p-4 lg:p-8 ">
+    <div className="my-6 flex items-center justify-center p-2 mx-10 sm:p-4 lg:p-8 ">
       <div className="relative w-full max-w-sm sm:max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
         <div className="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 text-center">
           <div className="space-y-4 sm:space-y-6">

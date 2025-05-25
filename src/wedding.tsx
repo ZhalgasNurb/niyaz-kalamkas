@@ -6,7 +6,7 @@ import RSVPForm from "./components/rsvp-form";
 
 const WeddingInvitation = () => {
   return (
-    <div className="min-h-screen bg-[url('/botanic.png')] bg-contain bg-no-repeat bg-fixed bg-center rounded-lg shadow-2xl relative overflow-hidden">
+    <div className="min-h-screen  shadow-2xl relative overflow-hidden">
       {/* Hero Section */}
       <div className="relative overflow-hidden  w-full  h-screen bg-[url('/bg.jpg')] bg-cover bg-center bg-black">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
