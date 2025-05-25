@@ -16,7 +16,7 @@ export default function BotanicalInvitation() {
 
             <div className="space-y-2 sm:space-y-4">
               <p className="text-2xl sm:text-2xl lg:text-2xl font-serif italic text-gray-800 leading-relaxed">
-                Нияз бен Қаламқастың
+                Нияз бен Каламкастың
               </p>
               <p className="text-lg sm:text-lg lg:text-lg font-serif italic text-gray-700 leading-relaxed">
                 шаңырақ көтеру тойына арналған ақ дастарханымыздың қадірлі
