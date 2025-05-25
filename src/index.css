@@ -7,9 +7,9 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  background-image: url('/botanic.png');
-  background-size: cover;
-  background-position: center;
+  background-image: url('/left.png'), url('/botanic.png'), url('/right.png');
+  background-size: 50% auto, auto,  auto;
+  background-position: left center, center center, right center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-synthesis: none;
