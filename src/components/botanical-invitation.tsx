@@ -15,10 +15,10 @@ export default function BotanicalInvitation() {
             </div>
 
             <div className="space-y-2 sm:space-y-4">
-              <p className="text-lg sm:text-lg lg:text-lg font-serif italic text-gray-800 leading-relaxed">
+              <p className="text-2xl sm:text-2xl lg:text-2xl font-serif italic text-gray-800 leading-relaxed">
                 Нияз бен Қаламқастың
               </p>
-              <p className="text-xs sm:text-lg lg:text-lg font-serif italic text-gray-700 leading-relaxed">
+              <p className="text-lg sm:text-lg lg:text-lg font-serif italic text-gray-700 leading-relaxed">
                 шаңырақ көтеру тойына арналған ақ дастарханымыздың қадірлі
                 қонағы болуға шақырамыз!
               </p>
@@ -26,10 +26,10 @@ export default function BotanicalInvitation() {
 
             {/* Signature */}
             <div className="mt-6 sm:mt-8 lg:mt-12 pt-4 sm:pt-6 lg:pt-8 border-t border-gray-400/30">
-              <p className="text-xs sm:text-lg font-serif italic text-gray-600">
+              <p className="text-lg sm:text-lg font-serif italic text-gray-600">
                 Той иелері:
               </p>
-              <p className="text-lg sm:text-lg font-serif italic text-gray-800 mt-1">
+              <p className="text-2xl sm:text-2xl font-serif italic text-gray-800 mt-1">
                 Талғат пен Ақбота
               </p>
             </div>
@@ -39,7 +39,7 @@ export default function BotanicalInvitation() {
               <div className="space-y-4 sm:space-y-6">
                 <div>
                   <h3 className="text-lg sm:text-lg font-serif uppercase tracking-wider text-gray-600 mb-2 sm:mb-3">
-                    ТОЙ САЛТАНАТЫ:{" "}
+                    ТОЙ САЛТАНАТЫ:
                   </h3>
                   <p className="text-lg sm:text-lg lg:text-xl font-serif italic text-gray-800">
                     29 тамыз 2025
