@@ -19,7 +19,7 @@ const WeddingInvitation = () => {
               </span>
               <span>Kalamkas</span>
             </h1>
-            <div className="mb-8 sm:mb-0">
+            <div className="mb-20 sm:mb-0">
               <p className="text-lg sm:text-2xl md:text-3xl text-white mb-4 sm:mb-8 font-light tracking-wider">
                 Wedding Day
               </p>
