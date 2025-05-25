@@ -7,7 +7,7 @@ export default function BotanicalInvitation() {
             {/* Main invitation text */}
             <div className="space-y-2 sm:space-y-4">
               <p className="text-lg sm:text-lg lg:text-lg font-serif italic text-gray-800 leading-relaxed">
-                Құрметті ағайын-туыс, құда-жекжағат, дос-жарандар!
+                Құрметті ағайын-туыс, құда-жекжат, дос-жарандар!
               </p>
               <p className="text-lg sm:text-lg lg:text-lg font-serif italic text-gray-800 leading-relaxed">
                 Сіздерді ұлымыз бен келініміз

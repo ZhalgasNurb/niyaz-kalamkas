@@ -3,12 +3,15 @@ import BotanicalInvitation from "./components/botanical-invitation";
 import BotanicalCalendar from "./components/calendar";
 import BotanicalCountdown from "./components/countdown";
 import RSVPForm from "./components/rsvp-form";
+import MusicPlayer from "./components/music-player";
 
 const WeddingInvitation = () => {
   return (
     <div className="min-h-screen  shadow-2xl relative overflow-hidden">
       {/* Hero Section */}
       <div className="relative overflow-hidden  w-full  h-screen bg-[url('/bg.jpg')] bg-cover bg-center bg-black">
+        <MusicPlayer />
+
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
         <div className="relative h-full max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-16 text-center">
           <div className="animate-fade-in flex flex-col items-center justify-between h-full text-center">
@@ -20,10 +23,10 @@ const WeddingInvitation = () => {
               <span>Kalamkas</span>
             </h1>
             <div className="mb-20 sm:mb-0">
-              <p className="text-lg sm:text-2xl md:text-3xl text-white mb-4 sm:mb-8 font-light tracking-wider">
+              <p className="text-3xl sm:text-2xl md:text-3xl text-white mb-4 sm:mb-8 font-light tracking-wider">
                 Wedding Day
               </p>
-              <div className="text-white text-base sm:text-xl tracking-[0.2em] sm:tracking-[0.3em] font-light">
+              <div className="text-white text-3xl sm:text-xl tracking-[0.2em] sm:tracking-[0.3em] font-light">
                 29 ⟡ 08 ⟡ 2025
               </div>
             </div>
