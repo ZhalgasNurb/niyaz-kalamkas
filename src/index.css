@@ -8,7 +8,7 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
   background-image: url('/left.png'), url('/botanic.png'), url('/right.png');
-  background-size: 50% auto, 100%,  auto;
+  background-size: 50% auto, 100% auto,  auto;
   background-position: left center, center center, right center;
   background-repeat: no-repeat;
   background-attachment: fixed;
