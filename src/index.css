@@ -7,7 +7,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #a1a1a1;
-  background-image: url('/left.png'), url('/right.png'), url('/botanic.png');
+  background-image: url('/left.png'), url('/right.png'), url('/botanic.jpg');
   background-size: 30% auto, 30% auto, cover;
   background-position: left 45%, right center, center center;
   background-repeat: repeat-y, no-repeat, no-repeat;
