@@ -9,7 +9,7 @@
   background-color: #242424;
   background-image: url('/left.png'), url('/botanic.png'), url('/right.png');
   background-size: 30% auto, cover, auto;
-  background-position: left top, center center, right center;
+  background-position: left 75%, center center, right center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-synthesis: none;
