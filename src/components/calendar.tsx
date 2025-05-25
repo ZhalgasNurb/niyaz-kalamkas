@@ -66,7 +66,7 @@ export default function BotanicalCalendar() {
                       {/* Special highlight for 29th */}
                       {day === 29 ? (
                         <div className="relative">
-                          <Heart className="absolute top-0 -left-3 text-red-400 w-10 h-10 sm:w-8 sm:h-8 lg:w-10 lg:h-10 animate-pulse" />
+                          <Heart className="absolute -top-1 -left-3 text-red-400 w-10 h-10 sm:w-8 sm:h-8 lg:w-10 lg:h-10 animate-pulse" />
                           <span className="relative z-10 text-sm sm:text-base lg:text-lg font-serif font-bold text-white">
                             {day}
                           </span>
