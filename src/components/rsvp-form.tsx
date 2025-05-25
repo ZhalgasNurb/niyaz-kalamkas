@@ -26,12 +26,18 @@ export default function RSVPForm() {
     setIsLoading(true);
 
     try {
-      // Способ 3: Отправка в Google Forms (самый надежный)
       const formDataToSend = new FormData();
 
-      // Замените entry.XXXXXXX на ID полей из вашей Google формы
-      formDataToSend.append("entry.1664922757", formData.name); // ID поля "Имя"
-      formDataToSend.append("entry.559928202", formData.message); // ID поля "Сообщение"
+      const entryName = import.meta.env.VITE_GOOGLE_ENTRY_NAME;
+      const entryMessage = import.meta.env.VITE_GOOGLE_ENTRY_MESSAGE;
+      if (!entryName || !entryMessage) {
+        throw new Error(
+          "Google Form entry name is not defined in environment variables."
+        );
+      }
+
+      formDataToSend.append(entryName, formData.name);
+      formDataToSend.append(entryMessage, formData.message);
 
       const googleUrl = import.meta.env.VITE_GOOGLE_URL;
       if (!googleUrl) {
