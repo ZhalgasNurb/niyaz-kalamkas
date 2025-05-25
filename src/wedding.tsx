@@ -22,12 +22,15 @@ const WeddingInvitation = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-white/20"></div>
         <div className="relative h-full max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-16 text-center">
           <div className="animate-fade-in flex flex-col items-center justify-between h-full text-center">
-            <h1 className="mt-8 sm:mt-12 text-4xl sm:text-6xl md:text-8xl font-serif text-white mb-4 tracking-wide flex flex-col items-center">
-              <span>Нияз</span>
-              <span className="text-white font-light text-2xl sm:text-4xl md:text-5xl my-2 sm:my-4">
+            <h1
+              style={{ fontFamily: "'ClassicaOne', sans-serif" }}
+              className="font-classica mt-8 sm:mt-12 text-4xl sm:text-6xl md:text-8xl font-serif text-white mb-4 tracking-wide flex flex-col items-center "
+            >
+              <span className="!test-classica">Нияз</span>
+              <span className="!test-classica text-white font-light text-2xl sm:text-4xl md:text-5xl my-2 sm:my-4">
                 &
               </span>
-              <span>Каламкас</span>
+              <span className="!test-classica">Каламкас</span>
             </h1>
             <div className="mb-20 sm:mb-0">
               <p className="text-3xl sm:text-2xl md:text-3xl text-white mb-4 sm:mb-8 font-light tracking-wider">
@@ -50,7 +53,7 @@ const WeddingInvitation = () => {
         <div className="flex justify-center items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
           <Heart className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
           <span className="text-white font-light tracking-wide text-sm sm:text-base">
-            Махаббатпен, Нияз бен Қаламқас
+            Махаббатпен, Нияз бен Каламкас
           </span>
           <Heart className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
         </div>

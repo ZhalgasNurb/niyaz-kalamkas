@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'ClassicaOne';
+  src: url('./assets/Classica_One.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -38,6 +45,9 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+.test-classica {
+  font-family: 'ClassicaOne', sans-serif;
 }
 
 button {
