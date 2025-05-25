@@ -29,7 +29,7 @@ export default function BotanicalInvitation() {
               <p className="text-lg sm:text-lg font-serif italic text-gray-600">
                 Той иелері:
               </p>
-              <p className="text-2xl sm:text-2xl font-serif italic text-gray-800 mt-1">
+              <p className="text-xl sm:text-2xl font-serif italic text-gray-800 mt-1">
                 Талғат пен Ақбота
               </p>
             </div>
@@ -50,10 +50,10 @@ export default function BotanicalInvitation() {
                 </div>
 
                 <div>
-                  <h3 className="text-xs sm:text-lg font-serif uppercase tracking-wider text-gray-600 mb-2 sm:mb-3">
+                  <h3 className="text-lg sm:text-lg font-serif uppercase tracking-wider text-gray-600 mb-2 sm:mb-3">
                     МЕКЕН-ЖАЙЫМЫЗ:{" "}
                   </h3>
-                  <p className="text-xs sm:text-lg lg:text-lg font-serif italic text-gray-800">
+                  <p className="text-lg sm:text-lg lg:text-lg font-serif italic text-gray-800">
                     "Бакшасарай" мейрамханасы Алматы қ., Темирязева 42 К1
                   </p>
 
