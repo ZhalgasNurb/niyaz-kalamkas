@@ -23,11 +23,11 @@ const WeddingInvitation = () => {
         <div className="relative h-full max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-16 text-center">
           <div className="animate-fade-in flex flex-col items-center justify-between h-full text-center">
             <h1 className="mt-8 sm:mt-12 text-4xl sm:text-6xl md:text-8xl font-serif text-white mb-4 tracking-wide flex flex-col items-center">
-              <span>Niyaz</span>
+              <span>Нияз</span>
               <span className="text-white font-light text-2xl sm:text-4xl md:text-5xl my-2 sm:my-4">
                 &
               </span>
-              <span>Kalamkas</span>
+              <span>Каламкас</span>
             </h1>
             <div className="mb-20 sm:mb-0">
               <p className="text-3xl sm:text-2xl md:text-3xl text-white mb-4 sm:mb-8 font-light tracking-wider">
