@@ -6,19 +6,19 @@ export default function BotanicalInvitation() {
           <div className="space-y-4 sm:space-y-6">
             {/* Main invitation text */}
             <div className="space-y-2 sm:space-y-4">
-              <p className="text-sm sm:text-base lg:text-lg font-serif italic text-gray-800 leading-relaxed">
+              <p className="text-lg sm:text-lg lg:text-lg font-serif italic text-gray-800 leading-relaxed">
                 Құрметті ағайын-туыс, құда-жекжағат, дос-жарандар!
               </p>
-              <p className="text-sm sm:text-base lg:text-lg font-serif italic text-gray-800 leading-relaxed">
+              <p className="text-lg sm:text-lg lg:text-lg font-serif italic text-gray-800 leading-relaxed">
                 Сіздерді ұлымыз бен келініміз
               </p>
             </div>
 
             <div className="space-y-2 sm:space-y-4">
-              <p className="text-sm sm:text-base lg:text-lg font-serif italic text-gray-800 leading-relaxed">
+              <p className="text-lg sm:text-lg lg:text-lg font-serif italic text-gray-800 leading-relaxed">
                 Нияз бен Қаламқастың
               </p>
-              <p className="text-xs sm:text-sm lg:text-base font-serif italic text-gray-700 leading-relaxed">
+              <p className="text-xs sm:text-lg lg:text-lg font-serif italic text-gray-700 leading-relaxed">
                 шаңырақ көтеру тойына арналған ақ дастарханымыздың қадірлі
                 қонағы болуға шақырамыз!
               </p>
@@ -26,10 +26,10 @@ export default function BotanicalInvitation() {
 
             {/* Signature */}
             <div className="mt-6 sm:mt-8 lg:mt-12 pt-4 sm:pt-6 lg:pt-8 border-t border-gray-400/30">
-              <p className="text-xs sm:text-sm font-serif italic text-gray-600">
+              <p className="text-xs sm:text-lg font-serif italic text-gray-600">
                 Той иелері:
               </p>
-              <p className="text-sm sm:text-base font-serif italic text-gray-800 mt-1">
+              <p className="text-lg sm:text-lg font-serif italic text-gray-800 mt-1">
                 Талғат пен Ақбота
               </p>
             </div>
@@ -38,22 +38,22 @@ export default function BotanicalInvitation() {
             <div className="mt-6 sm:mt-8 lg:mt-12 pt-4 sm:pt-6 lg:pt-8 border-t border-gray-400/30">
               <div className="space-y-4 sm:space-y-6">
                 <div>
-                  <h3 className="text-xs sm:text-sm font-serif uppercase tracking-wider text-gray-600 mb-2 sm:mb-3">
+                  <h3 className="text-lg sm:text-lg font-serif uppercase tracking-wider text-gray-600 mb-2 sm:mb-3">
                     ТОЙ САЛТАНАТЫ:{" "}
                   </h3>
-                  <p className="text-base sm:text-lg lg:text-xl font-serif italic text-gray-800">
+                  <p className="text-lg sm:text-lg lg:text-xl font-serif italic text-gray-800">
                     29 тамыз 2025
                   </p>
-                  <p className="text-sm sm:text-base lg:text-lg font-serif italic text-gray-700">
+                  <p className="text-lg sm:text-lg lg:text-lg font-serif italic text-gray-700">
                     сағат 18:00
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-xs sm:text-sm font-serif uppercase tracking-wider text-gray-600 mb-2 sm:mb-3">
+                  <h3 className="text-xs sm:text-lg font-serif uppercase tracking-wider text-gray-600 mb-2 sm:mb-3">
                     МЕКЕН-ЖАЙЫМЫЗ:{" "}
                   </h3>
-                  <p className="text-xs sm:text-sm lg:text-base font-serif italic text-gray-800">
+                  <p className="text-xs sm:text-lg lg:text-lg font-serif italic text-gray-800">
                     "Бакшасарай" мейрамханасы Алматы қ., Темирязева 42 К1
                   </p>
 
@@ -63,8 +63,13 @@ export default function BotanicalInvitation() {
                         href="https://2gis.kz/almaty/geo/9429940000921500"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className=""
                       >
-                        <img src="./2gis.png" alt="2gis.png" />
+                        <img
+                          className="w-16 h-16 rounded-md"
+                          src="./2gis.png"
+                          alt="2gis.png"
+                        />
                       </a>
                     </div>
                   </div>
