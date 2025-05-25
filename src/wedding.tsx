@@ -18,8 +18,8 @@ const WeddingInvitation = () => {
               `,
         }}
       />
-      <div className="relative overflow-hidden  w-full  h-screen bg-[url('/bg.png')] bg-cover bg-center bg-black">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
+      <div className="relative overflow-hidden w-full  h-screen bg-[url('/bg.png')] bg-cover bg-center bg-black">
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-white/20"></div>
         <div className="relative h-full max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-16 text-center">
           <div className="animate-fade-in flex flex-col items-center justify-between h-full text-center">
             <h1 className="mt-8 sm:mt-12 text-4xl sm:text-6xl md:text-8xl font-serif text-white mb-4 tracking-wide flex flex-col items-center">
