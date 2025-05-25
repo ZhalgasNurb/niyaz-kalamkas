@@ -24,13 +24,13 @@ const WeddingInvitation = () => {
           <div className="animate-fade-in flex flex-col items-center justify-between h-full text-center">
             <h1
               style={{ fontFamily: "'ClassicaOne', sans-serif" }}
-              className="font-classica mt-8 sm:mt-12 text-4xl sm:text-6xl md:text-8xl font-serif text-white mb-4 tracking-wide flex flex-col items-center "
+              className="font-classica mt-8 sm:mt-12 text-4xl sm:text-6xl md:text-8xl text-white mb-4 tracking-wide flex flex-col items-center font-bold"
             >
-              <span className="!test-classica">Нияз</span>
-              <span className="!test-classica text-white font-light text-2xl sm:text-4xl md:text-5xl my-2 sm:my-4">
+              <span className="">Нияз</span>
+              <span className=" text-white font-light text-2xl sm:text-4xl md:text-5xl my-2 sm:my-4">
                 &
               </span>
-              <span className="!test-classica">Каламкас</span>
+              <span className="">Каламкас</span>
             </h1>
             <div className="mb-20 sm:mb-0">
               <p className="text-3xl sm:text-2xl md:text-3xl text-white mb-4 sm:mb-8 font-light tracking-wider">
