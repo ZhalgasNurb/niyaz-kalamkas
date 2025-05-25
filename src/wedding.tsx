@@ -8,6 +8,16 @@ const WeddingInvitation = () => {
   return (
     <div className="min-h-screen  shadow-2xl relative overflow-hidden">
       {/* Hero Section */}
+      <div
+        className="absolute inset-0 opacity-20"
+        style={{
+          backgroundImage: `
+                radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(120, 219, 226, 0.1) 0%, transparent 50%)
+              `,
+        }}
+      />
       <div className="relative overflow-hidden  w-full  h-screen bg-[url('/bg.jpg')] bg-cover bg-center bg-black">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
         <div className="relative h-full max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-16 text-center">
