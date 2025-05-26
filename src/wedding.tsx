@@ -3,6 +3,7 @@ import BotanicalInvitation from "./components/botanical-invitation";
 import BotanicalCalendar from "./components/calendar";
 import BotanicalCountdown from "./components/countdown";
 import RSVPForm from "./components/rsvp-form";
+import EventLink from "./components/event-link";
 
 const WeddingInvitation = () => {
   return (
@@ -44,6 +45,7 @@ const WeddingInvitation = () => {
       <BotanicalCalendar />
       <BotanicalCountdown />
       <RSVPForm />
+      <EventLink />
 
       {/* Footer */}
       <div className="text-center py-8 sm:py-16 px-4 sm:px-6 bg-black">

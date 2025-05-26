@@ -61,7 +61,7 @@ export default function RSVPForm() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-16 bg-contain bg-center rounded-lg shadow-2xl relative overflow-hidden">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-16 bg-contain bg-center rounded-lg relative overflow-hidden">
       <div className="bg-white border-4 border-black p-6 sm:p-12">
         <div className="text-center mb-8 sm:mb-12">
           <Users className="w-12 h-12 sm:w-16 sm:h-16 text-black mx-auto mb-4 sm:mb-6" />
