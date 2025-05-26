@@ -34,7 +34,7 @@ export default function RSVPForm() {
       if (!formData.name || !formData.message) {
         setErrorMessage("Аты-жөніңіз міндетті түрде толтырылуы тиіс.");
         setIsLoading(false);
-        throw new Error("Name and message are required fields.");
+        return;
       }
 
       const entryName = import.meta.env.VITE_GOOGLE_ENTRY_NAME;
