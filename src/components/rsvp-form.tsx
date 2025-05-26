@@ -70,11 +70,11 @@ export default function RSVPForm() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-16 bg-contain bg-center rounded-lg relative overflow-hidden">
+    <div className="font-serif italic max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-16 bg-contain bg-center rounded-lg relative overflow-hidden">
       <div className="bg-white border-4 border-black p-6 sm:p-12">
         <div className="text-center mb-8 sm:mb-12">
           <Users className="w-12 h-12 sm:w-16 sm:h-16 text-black mx-auto mb-4 sm:mb-6" />
-          <h2 className="text-2xl sm:text-4xl font-serif text-black mb-2 sm:mb-4 uppercase tracking-wider">
+          <h2 className="text-2xl sm:text-4xl  text-black mb-2 sm:mb-4 uppercase">
             Қуанышымыздың қадірлі қонағы болыңыздар!
           </h2>
           <div className="w-16 sm:w-24 h-0.5 bg-black mx-auto mb-4 sm:mb-6"></div>
@@ -86,7 +86,7 @@ export default function RSVPForm() {
         {!isSubmitted ? (
           <div className="max-w-2xl mx-auto space-y-6 sm:space-y-8">
             <div>
-              <label className="block text-xs sm:text-sm font-bold text-black mb-2 sm:mb-3 uppercase tracking-wide">
+              <label className="block text-xs sm:text-sm font-bold text-black mb-2 sm:mb-3 uppercase">
                 Аты-жөніңіз *
               </label>
               <input
@@ -106,7 +106,7 @@ export default function RSVPForm() {
             </div>
 
             <div>
-              <label className="block text-xs sm:text-sm font-bold text-black mb-2 sm:mb-3 uppercase tracking-wide">
+              <label className="block text-xs sm:text-sm font-bold text-black mb-2 sm:mb-3 uppercase ">
                 Жас жұбайларға тілегіңіз
               </label>
               <textarea
@@ -127,7 +127,7 @@ export default function RSVPForm() {
                 backgroundColor: isLoading ? "#f0f0f0" : "#000",
                 color: isLoading ? "#000" : "#fff",
               }}
-              className="w-full py-3 sm:py-4 px-6 sm:px-8 border-2 border-black font-bold text-sm sm:text-lg uppercase tracking-wider transform hover:-translate-y-1 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 sm:gap-3 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+              className="w-full  py-3 sm:py-4 px-6 sm:px-8 border-2 border-black font-bold text-sm sm:text-lg uppercase transform hover:-translate-y-1 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 sm:gap-3 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
             >
               {isLoading ? (
                 <>
@@ -146,7 +146,7 @@ export default function RSVPForm() {
         ) : (
           <div className="text-center py-12 sm:py-16">
             <CheckCircle className="w-16 h-16 sm:w-20 sm:h-20 text-black mx-auto mb-4 sm:mb-6" />
-            <h3 className="text-2xl sm:text-3xl font-bold text-black mb-2 sm:mb-4 uppercase tracking-wide">
+            <h3 className="text-2xl sm:text-3xl font-bold text-black mb-2 sm:mb-4 uppercase ">
               Рахмет!
             </h3>
             <div className="w-12 sm:w-16 h-0.5 bg-black mx-auto mb-2 sm:mb-4"></div>

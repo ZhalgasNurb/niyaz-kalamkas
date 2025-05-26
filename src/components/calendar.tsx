@@ -32,10 +32,10 @@ export default function BotanicalCalendar() {
         <div className="bg-gray-600/30 rounded-md relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
           {/* Month and Year */}
           <div className="text-center mb-6 sm:mb-8">
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif text-gray-800 tracking-wider">
+            <h1 className=" text-2xl sm:text-3xl lg:text-4xl font-serif text-gray-800 tracking-wider">
               ТАМЫЗ
             </h1>
-            <p className="text-lg sm:text-xl lg:text-2xl font-serif italic text-gray-600 mt-1">
+            <p className=" text-lg sm:text-xl lg:text-2xl font-serif italic text-gray-600 mt-1">
               2025
             </p>
           </div>
