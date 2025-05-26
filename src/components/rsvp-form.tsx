@@ -28,6 +28,11 @@ export default function RSVPForm() {
     try {
       const formDataToSend = new FormData();
 
+      // Validate form data
+      if (!formData.name || !formData.message) {
+        throw new Error("Name and message are required fields.");
+      }
+
       const entryName = import.meta.env.VITE_GOOGLE_ENTRY_NAME;
       const entryMessage = import.meta.env.VITE_GOOGLE_ENTRY_MESSAGE;
       if (!entryName || !entryMessage) {
@@ -109,7 +114,11 @@ export default function RSVPForm() {
               type="button"
               onClick={handleSubmit}
               disabled={isLoading}
-              className="w-full bg-black text-white py-3 sm:py-4 px-6 sm:px-8 border-2 border-black font-bold text-sm sm:text-lg uppercase tracking-wider transform hover:-translate-y-1 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 sm:gap-3 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+              style={{
+                backgroundColor: isLoading ? "#f0f0f0" : "#000",
+                color: isLoading ? "#000" : "#fff",
+              }}
+              className="w-full py-3 sm:py-4 px-6 sm:px-8 border-2 border-black font-bold text-sm sm:text-lg uppercase tracking-wider transform hover:-translate-y-1 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 sm:gap-3 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
             >
               {isLoading ? (
                 <>
