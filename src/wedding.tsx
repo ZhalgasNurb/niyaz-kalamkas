@@ -30,10 +30,10 @@ const WeddingInvitation = () => {
               <span className="">Каламкас</span>
             </h1>
             <div className="mb-20 sm:mb-0">
-              <p className="text-3xl sm:text-2xl md:text-3xl text-white mb-4 sm:mb-8 font-light tracking-wider">
+              <p className="font-classica text-3xl text-white mb-4 sm:mb-8 font-light tracking-wider">
                 Wedding Day
               </p>
-              <div className="text-white text-3xl sm:text-xl tracking-[0.2em] sm:tracking-[0.3em] font-light">
+              <div className="font-classica text-white text-3xl tracking-[0.2em] sm:tracking-[0.3em] font-light">
                 29 ⟡ 08 ⟡ 2025
               </div>
             </div>
