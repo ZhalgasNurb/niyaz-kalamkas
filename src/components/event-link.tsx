@@ -1,6 +1,8 @@
 import { MessageCircle } from "lucide-react";
 
 export default function EventLink() {
+  const telegramLink = import.meta.env.VITE_TELEGRAM_LINK || "https://t.me/";
+
   return (
     <div className="py-12 sm:py-20 px-4 sm:px-6">
       <div className="max-w-4xl mx-auto">
@@ -19,7 +21,7 @@ export default function EventLink() {
 
             {/* Telegram Link Button */}
             <a
-              href="https://t.me/"
+              href={telegramLink}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center z-50 gap-3 sm:gap-4 bg-black text-white py-4 sm:py-6 px-8 sm:px-12 border-4 border-black font-bold text-lg sm:text-xl uppercase tracking-wider hover:bg-white hover:text-black transform hover:-translate-y-1 transition-all duration-200 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] sm:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] cursor-pointer"
