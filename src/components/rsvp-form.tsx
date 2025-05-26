@@ -109,7 +109,7 @@ export default function RSVPForm() {
               type="button"
               onClick={handleSubmit}
               disabled={isLoading}
-              className="w-full bg-black text-white py-3 sm:py-4 px-6 sm:px-8 border-2 border-black font-bold text-sm sm:text-lg uppercase tracking-wider hover:bg-white hover:text-black transform hover:-translate-y-1 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 sm:gap-3 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+              className="w-full bg-black text-white py-3 sm:py-4 px-6 sm:px-8 border-2 border-black font-bold text-sm sm:text-lg uppercase tracking-wider transform hover:-translate-y-1 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 sm:gap-3 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
             >
               {isLoading ? (
                 <>
