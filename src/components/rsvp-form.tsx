@@ -8,6 +8,8 @@ export default function RSVPForm() {
     name: "",
     message: "",
   });
+
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -30,6 +32,8 @@ export default function RSVPForm() {
 
       // Validate form data
       if (!formData.name || !formData.message) {
+        setErrorMessage("Аты-жөніңіз міндетті түрде толтырылуы тиіс.");
+        setIsLoading(false);
         throw new Error("Name and message are required fields.");
       }
 
@@ -94,6 +98,11 @@ export default function RSVPForm() {
                 className="w-full px-4 sm:px-6 py-3 sm:py-4 border-2 border-black rounded-none focus:outline-none focus:ring-0 focus:border-black bg-white text-black font-medium shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] focus:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:focus:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 text-sm sm:text-base"
                 placeholder="Атыңызды енгізіңіз"
               />
+              {errorMessage && (
+                <p className="text-red-500 text-xs sm:text-sm mt-2">
+                  {errorMessage}
+                </p>
+              )}
             </div>
 
             <div>
