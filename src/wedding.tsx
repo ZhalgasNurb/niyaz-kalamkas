@@ -18,7 +18,7 @@ const WeddingInvitation = () => {
             `,
         }}
       />
-      <div className="relative overflow-hidden w-full h-screen bg-[url('/bg.png')] bg-cover bg-center bg-black">
+      <div className="relative overflow-hidden w-full h-[100dvh] bg-[url('/bg.png')] bg-cover bg-center bg-black/70">
         <div className="absolute left-0 right-0 top-0 bottom-0 bg-gradient-to-b from-black/70 to-white/20"></div>
         <div className="relative h-full max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-16 text-center">
           <div className="animate-fade-in flex flex-col items-center justify-between h-full text-center">
